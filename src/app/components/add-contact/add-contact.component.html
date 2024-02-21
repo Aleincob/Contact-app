@@ -1,0 +1,7 @@
+<p>add-contact works!</p>
+<form [formGroup]="dataForm" (ngSubmit)="addNewContact()">
+  <input type="text" formControlName="name" />
+  <input type="number" formControlName="phone" />
+  <input type="text" formControlName="eMail" />
+  <button type="submit">Agregar Contacto</button>
+</form>
